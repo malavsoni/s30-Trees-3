@@ -13,6 +13,9 @@ class TreeNode {
   }
 }
 
+// N = Number of nodes in the tree
+// H = Height of the tree
+// TC: O(N) SC: O(N)
 function isSymmetric(root: TreeNode | null): boolean {
   let lhs: number[] = [];
   let rhs: number[] = [];
